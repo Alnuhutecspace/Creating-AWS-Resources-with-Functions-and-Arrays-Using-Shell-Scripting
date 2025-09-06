@@ -1,0 +1,6 @@
+aws ec2 run-instances \
+    --image-id "ami-0cd59ecaf368e5ccf" \
+    --instance-type "t2.micro" \
+    --count 5 \
+    --key-name MyKeyPair \
+    --region eu-west-2
